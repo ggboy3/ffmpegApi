@@ -1,0 +1,276 @@
+[2024-02-18 16:02:47:286] [this=0xd7a850: Thread ID=3069477204]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:02:47:297] [this=0xd7a850: Thread ID=3069477204: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:02:47:298] [this=0xd7a850: Thread ID=3069477204: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:02:47:301] [this=0xd7a850: Thread ID=3069477204: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:02:47:301] [this=0xd7a850: Thread ID=3069477204: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:02:47:302] [this=0xd7a850: Thread ID=3069477204: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:02:47:302] [this=0xd7a850: Thread ID=3069477204: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:04:04:285] [this=none: Thread ID=14674568: dataIndex=0]外部调用DoStartLive
+[2024-02-18 16:04:04:448] CMGMediaEngine::DoStartLive dataIndex:0 url:jt1078://live-k8s.4s12580.com:11388/078221316079-1 Time:-1153539524
+[2024-02-18 16:04:04:457] [this=0xd7a850: Thread ID=14674568: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:0
+[2024-02-18 16:04:04:463] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:04:04:466] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:0 消息类型:18
+[2024-02-18 16:04:04:474] [this=0xd7c530: Thread ID=14134232: dataIndex=0]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:04:04:481] [this=0xe2ae00: Thread ID=14134232: dataIndex=0]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:04:04:489] [this=0xe1ace8: Thread ID=14864832: dataIndex=0]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:04:04:492] [this=0xe1ace8: Thread ID=14864832: dataIndex=0]CJT1078Live::解析域名成功
+[2024-02-18 16:04:04:492] Ip.c_str() = live-k8s.4s12580.com Port = 11388 Mei.c_str() = 078221316079 Channel = 1
+[2024-02-18 16:04:04:598] [this=0xe1ace8: Thread ID=14864832: dataIndex=0]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:04:05:497] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:06:496] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:07:118] CAACDataBuffer::FeedAACData AAC采样率 :16000
+[2024-02-18 16:04:07:118] CAACDataBuffer::FeedAACData AAC通道 : 1
+[2024-02-18 16:04:07:256] [this=0xe1ace8: Thread ID=14864832: dataIndex=0] CJT1078Live::第一帧视频发送完成
+[2024-02-18 16:04:07:379] [this=0xe1ace8: Thread ID=14864832: dataIndex=0] CJT1078Live::第一帧音频发送完成
+[2024-02-18 16:04:07:499] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:08:501] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:09:489] [this=0xe2ae00: Thread ID=14870208: dataIndex=0]CPushJT1078::process 推流线程正在工作......
+[2024-02-18 16:04:09:505] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:10:507] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:11:511] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:12:511] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:13:516] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:14:489] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:04:14:521] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:15:524] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:16:526] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:17:530] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:18:533] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:19:489] [this=0xe2ae00: Thread ID=14870208: dataIndex=0]CPushJT1078::process 推流线程正在工作......
+[2024-02-18 16:04:19:533] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:20:535] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:21:536] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:04:21:758] [this=none: Thread ID=14866176: dataIndex=0]外部调用DoStopLive
+[2024-02-18 16:04:21:760] DoStopLive end dataIndex = 0
+[2024-02-18 16:04:21:761] [this=0xe2ae00: Thread ID=14870208: dataIndex=0]CPushJT1078::process 停止直播
+[2024-02-18 16:04:21:765] [this=0xe2ae00: Thread ID=14181032: dataIndex=0]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:04:21:765] [this=0xe2ae00: Thread ID=14181032: dataIndex=0]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:04:21:766] [this=none: Thread ID=14674568: dataIndex=1]外部调用DoStartLive
+[2024-02-18 16:04:21:767] CMGMediaEngine::DoStartLive dataIndex:1 url:jt1078://live-k8s.4s12580.com:11088/078221316079-2 Time:-1153522042
+[2024-02-18 16:04:21:767] [this=0xd7a850: Thread ID=14674568: dataIndex=1]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:1
+[2024-02-18 16:04:21:769] [this=0xe1ace8: Thread ID=14864832: dataIndex=0]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:04:21:770] [this=0xd7c530: Thread ID=14181032: dataIndex=0]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:04:21:771] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:04:21:771] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:1 消息类型:18
+[2024-02-18 16:04:21:772] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd CCommandManager任务队列有2个任务
+[2024-02-18 16:04:21:772] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务执行完成! 文件路径:
+[2024-02-18 16:04:21:773] [this=0xd86780: Thread ID=14181688: dataIndex=1]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:04:21:773] [this=0xe1f2b8: Thread ID=14181688: dataIndex=1]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:04:21:776] [this=0xe1ace8: Thread ID=14867784: dataIndex=1]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:04:21:784] [this=0xe1ace8: Thread ID=14867784: dataIndex=1]CJT1078Live::解析域名成功
+[2024-02-18 16:04:21:784] Ip.c_str() = live-k8s.4s12580.com Port = 11088 Mei.c_str() = 078221316079 Channel = 2
+[2024-02-18 16:04:21:831] [this=0xe1ace8: Thread ID=14867784: dataIndex=1]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:04:22:540] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:23:168] CAACDataBuffer::FeedAACData AAC采样率 :16000
+[2024-02-18 16:04:23:168] CAACDataBuffer::FeedAACData AAC通道 : 1
+[2024-02-18 16:04:23:379] [this=0xe1ace8: Thread ID=14867784: dataIndex=1] CJT1078Live::第一帧视频发送完成
+[2024-02-18 16:04:23:445] [this=0xe1ace8: Thread ID=14867784: dataIndex=1] CJT1078Live::第一帧音频发送完成
+[2024-02-18 16:04:23:543] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:24:489] [this=0xd86780: Thread ID=14223032: dataIndex=1]CManipulator::process 任务数量:1
+[2024-02-18 16:04:24:548] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:25:552] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:26:556] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:27:559] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:28:561] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:29:493] [this=0xd86780: Thread ID=14223032: dataIndex=1]CManipulator::process 任务数量:1
+[2024-02-18 16:04:29:493] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:04:29:564] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:30:565] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:31:568] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:32:570] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:33:570] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:04:34:009] [this=none: Thread ID=14795576: dataIndex=1]外部调用DoStopLive
+[2024-02-18 16:04:34:009] DoStopLive end dataIndex = 1
+[2024-02-18 16:04:34:015] [this=0xe1f2b8: Thread ID=14871552: dataIndex=1]CPushJT1078::process 停止直播
+[2024-02-18 16:04:34:016] [this=0xe1f2b8: Thread ID=14223032: dataIndex=1]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:04:34:018] [this=0xe1f2b8: Thread ID=14223032: dataIndex=1]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:04:34:020] [this=0xe1ace8: Thread ID=14867784: dataIndex=1]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:04:34:020] [this=0xd86780: Thread ID=14223032: dataIndex=1]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:04:34:022] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:04:34:022] [this=0xd7a850: Thread ID=14133576]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务执行完成! 文件路径:
+[2024-02-18 16:05:12:777] [this=0x548838: Thread ID=3069944148]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:05:12:786] [this=0x548838: Thread ID=3069944148: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:05:12:786] [this=0x548838: Thread ID=3069944148: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:05:12:787] [this=0x548838: Thread ID=3069944148: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:05:12:787] [this=0x548838: Thread ID=3069944148: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:05:12:787] [this=0x548838: Thread ID=3069944148: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:05:12:787] [this=0x548838: Thread ID=3069944148: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:33:153] [this=0xb68850: Thread ID=3069354324]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:08:33:167] [this=0xb68850: Thread ID=3069354324: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:33:168] [this=0xb68850: Thread ID=3069354324: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:33:169] [this=0xb68850: Thread ID=3069354324: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:33:169] [this=0xb68850: Thread ID=3069354324: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:33:174] [this=0xb68850: Thread ID=3069354324: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:33:174] [this=0xb68850: Thread ID=3069354324: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:41:962] [this=0x731850: Thread ID=3069722964]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:08:41:986] [this=0x731850: Thread ID=3069722964: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:41:986] [this=0x731850: Thread ID=3069722964: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:41:988] [this=0x731850: Thread ID=3069722964: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:41:988] [this=0x731850: Thread ID=3069722964: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:08:41:988] [this=0x731850: Thread ID=3069722964: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:08:41:989] [this=0x731850: Thread ID=3069722964: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:01:912] [this=0x1cb0850: Thread ID=3070140756]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:09:01:951] [this=0x1cb0850: Thread ID=3070140756: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:01:954] [this=0x1cb0850: Thread ID=3070140756: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:01:955] [this=0x1cb0850: Thread ID=3070140756: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:01:956] [this=0x1cb0850: Thread ID=3070140756: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:01:959] [this=0x1cb0850: Thread ID=3070140756: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:01:959] [this=0x1cb0850: Thread ID=3070140756: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:21:949] [this=0x1532850: Thread ID=3069866324]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:09:21:974] [this=0x1532850: Thread ID=3069866324: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:21:974] [this=0x1532850: Thread ID=3069866324: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:21:976] [this=0x1532850: Thread ID=3069866324: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:21:976] [this=0x1532850: Thread ID=3069866324: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:21:977] [this=0x1532850: Thread ID=3069866324: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:21:977] [this=0x1532850: Thread ID=3069866324: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:34:136] [this=0xc77850: Thread ID=3069313364]CMGMediaEngine::媒体主线程开启
+[2024-02-18 16:09:34:150] [this=0xc77850: Thread ID=3069313364: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:34:151] [this=0xc77850: Thread ID=3069313364: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:34:154] [this=0xc77850: Thread ID=3069313364: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:34:154] [this=0xc77850: Thread ID=3069313364: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:09:34:155] [this=0xc77850: Thread ID=3069313364: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-18 16:09:34:155] [this=0xc77850: Thread ID=3069313364: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-18 16:11:03:169] [this=none: Thread ID=13495296: dataIndex=1]外部调用DoStartLive
+[2024-02-18 16:11:03:224] [this=0xc77850: Thread ID=13495296: dataIndex=1]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:0
+[2024-02-18 16:11:03:229] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:11:03:229] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:0 消息类型:18
+[2024-02-18 16:11:03:233] [this=0xc83780: Thread ID=13120824: dataIndex=1]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:11:03:234] [this=0xd36530: Thread ID=13120824: dataIndex=1]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:03:246] [this=0xd05ed8: Thread ID=13632096: dataIndex=1]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:11:03:248] [this=0xd05ed8: Thread ID=13632096: dataIndex=1]CJT1078Live::解析域名成功
+[2024-02-18 16:11:03:248] Ip.c_str() = live-k8s.4s12580.com Port = 11188 Mei.c_str() = 078221316079 Channel = 2
+[2024-02-18 16:11:03:323] [this=0xd05ed8: Thread ID=13632096: dataIndex=1]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:11:04:253] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:05:255] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:05:802] CAACDataBuffer::FeedAACData AAC采样率 :16000
+[2024-02-18 16:11:05:802] CAACDataBuffer::FeedAACData AAC通道 : 1
+[2024-02-18 16:11:06:022] [this=0xd05ed8: Thread ID=13632096: dataIndex=1] CJT1078Live::第一帧视频发送完成
+[2024-02-18 16:11:06:090] [this=0xd05ed8: Thread ID=13632096: dataIndex=1] CJT1078Live::第一帧音频发送完成
+[2024-02-18 16:11:06:257] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:07:260] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:08:251] [this=0xc83780: Thread ID=13162168: dataIndex=1]CManipulator::process 任务数量:1
+[2024-02-18 16:11:08:260] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:09:263] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:10:267] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:11:270] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:12:272] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-18 16:11:12:535] [this=none: Thread ID=13672720: dataIndex=1]外部调用DoStopLive
+[2024-02-18 16:11:12:537] [this=0xd36530: Thread ID=13678896: dataIndex=1]CPushJT1078::process 停止直播
+[2024-02-18 16:11:12:539] [this=0xd36530: Thread ID=13162168: dataIndex=1]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:11:12:539] [this=0xd36530: Thread ID=13162168: dataIndex=1]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:12:542] [this=0xd05ed8: Thread ID=13632096: dataIndex=1]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:11:12:543] [this=0xc83780: Thread ID=13162168: dataIndex=1]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:11:12:544] [this=none: Thread ID=13495296: dataIndex=0]外部调用DoStartLive
+[2024-02-18 16:11:12:545] [this=0xc77850: Thread ID=13495296: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:1
+[2024-02-18 16:11:12:549] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:11:12:549] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:1 消息类型:18
+[2024-02-18 16:11:12:549] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有2个任务
+[2024-02-18 16:11:12:549] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务执行完成! 文件路径:
+[2024-02-18 16:11:12:550] [this=0xc79530: Thread ID=13073368: dataIndex=0]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:11:12:550] [this=0xd2ccc0: Thread ID=13073368: dataIndex=0]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:12:551] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:11:12:554] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::解析域名成功
+[2024-02-18 16:11:12:554] Ip.c_str() = live-k8s.4s12580.com Port = 11288 Mei.c_str() = 078221316079 Channel = 1
+[2024-02-18 16:11:12:601] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:11:13:253] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:11:13:253] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::process 任务数量:1
+[2024-02-18 16:11:13:274] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:13:880] CAACDataBuffer::FeedAACData AAC采样率 :16000
+[2024-02-18 16:11:13:880] CAACDataBuffer::FeedAACData AAC通道 : 1
+[2024-02-18 16:11:14:047] [this=0xd05ed8: Thread ID=13672720: dataIndex=0] CJT1078Live::第一帧视频发送完成
+[2024-02-18 16:11:14:140] [this=0xd05ed8: Thread ID=13672720: dataIndex=0] CJT1078Live::第一帧音频发送完成
+[2024-02-18 16:11:14:277] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:15:281] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:16:283] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:17:285] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:18:255] [this=0xd2ccc0: Thread ID=13854000: dataIndex=0]CPushJT1078::process 推流线程正在工作......
+[2024-02-18 16:11:18:286] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:19:290] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务正在执行......
+[2024-02-18 16:11:19:813] [this=none: Thread ID=13666864: dataIndex=0]外部调用DoStopLive
+[2024-02-18 16:11:19:817] [this=0xd2ccc0: Thread ID=13854000: dataIndex=0]CPushJT1078::process 停止直播
+[2024-02-18 16:11:19:817] [this=none: Thread ID=13495296: dataIndex=0]外部调用DoStartLive
+[2024-02-18 16:11:19:817] [this=0xc77850: Thread ID=13495296: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:2
+[2024-02-18 16:11:19:818] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:11:19:818] [this=0xd2ccc0: Thread ID=13120168: dataIndex=0]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:11:19:818] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:2 消息类型:18
+[2024-02-18 16:11:19:818] [this=0xd2ccc0: Thread ID=13120168: dataIndex=0]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:19:823] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:11:19:823] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:11:19:823] [this=0xc79530: Thread ID=13073368: dataIndex=0]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:11:19:824] [this=0xd2ccc0: Thread ID=13073368: dataIndex=0]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:19:824] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有2个任务
+[2024-02-18 16:11:19:824] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务执行完成! 文件路径:
+[2024-02-18 16:11:19:824] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:11:19:824] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::解析域名成功
+[2024-02-18 16:11:19:824] Ip.c_str() = live-k8s.4s12580.com Port = 11388 Mei.c_str() = 078221316079 Channel = 1
+[2024-02-18 16:11:19:870] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:11:20:292] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:21:296] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:22:296] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:23:257] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::process 任务数量:1
+[2024-02-18 16:11:23:300] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:24:303] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:25:303] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:26:304] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:27:306] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:28:257] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::process 任务数量:1
+[2024-02-18 16:11:28:309] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:29:309] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务正在执行......
+[2024-02-18 16:11:29:828] [this=0xd2ccc0: Thread ID=13120168: dataIndex=0]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:11:29:829] [this=0xd2ccc0: Thread ID=13120168: dataIndex=0]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:11:29:832] [this=0xd05ed8: Thread ID=13672720: dataIndex=0]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:11:29:838] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:2 的任务执行失败! 文件路径:
+[2024-02-18 16:12:21:649] [this=none: Thread ID=13634376: dataIndex=0]外部调用DoStopLive
+[2024-02-18 16:12:21:706] [this=none: Thread ID=13495296: dataIndex=0]外部调用DoStartLive
+[2024-02-18 16:12:21:710] [this=0xc77850: Thread ID=13495296: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:3
+[2024-02-18 16:12:21:711] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:12:21:712] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:3 消息类型:18
+[2024-02-18 16:12:21:716] [this=0xc79530: Thread ID=13073368: dataIndex=0]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:12:21:718] [this=0xcdfb30: Thread ID=13073368: dataIndex=0]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:12:21:724] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::process 任务数量:1
+[2024-02-18 16:12:21:726] [this=0xe4e820: Thread ID=13666864: dataIndex=0]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:12:21:727] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:3 的任务正在执行......
+[2024-02-18 16:12:21:731] [this=0xe4e820: Thread ID=13666864: dataIndex=0]CJT1078Live::解析域名成功
+[2024-02-18 16:12:21:731] Ip.c_str() = live-k8s.4s12580.com Port = 11088 Mei.c_str() = 078221316079 Channel = 1
+[2024-02-18 16:12:21:835] [this=0xe4e820: Thread ID=13666864: dataIndex=0]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:12:22:727] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:3 的任务正在执行......
+[2024-02-18 16:12:23:019] [this=none: Thread ID=13634376: dataIndex=0]外部调用DoStopLive
+[2024-02-18 16:12:23:095] [this=0xcdfb30: Thread ID=13677456: dataIndex=0]CPushJT1078::process 停止直播
+[2024-02-18 16:12:23:095] [this=0xcdfb30: Thread ID=13120168: dataIndex=0]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:12:23:096] [this=0xcdfb30: Thread ID=13120168: dataIndex=0]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:12:23:103] [this=0xe4e820: Thread ID=13666864: dataIndex=0]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:12:23:104] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:12:23:107] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:12:23:108] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:3 的任务执行完成! 文件路径:
+[2024-02-18 16:12:45:082] [this=none: Thread ID=13495296: dataIndex=0]外部调用DoStartLive
+[2024-02-18 16:12:45:091] [this=0xc77850: Thread ID=13495296: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:4
+[2024-02-18 16:12:45:092] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 18
+[2024-02-18 16:12:45:092] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:4 消息类型:18
+[2024-02-18 16:12:45:101] [this=0xc79530: Thread ID=13073368: dataIndex=0]CManipulator::HandleCmd 创建部标推流器线程->CPushJT1078::process()
+[2024-02-18 16:12:45:102] [this=0xcdfb30: Thread ID=13073368: dataIndex=0]CPushJT1078::Start 开启部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:12:45:105] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::process 任务数量:1
+[2024-02-18 16:12:45:105] [this=0xe4e820: Thread ID=13656992: dataIndex=0]CJT1078Live::正在连接媒体服务器
+[2024-02-18 16:12:45:108] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:45:108] [this=0xe4e820: Thread ID=13656992: dataIndex=0]CJT1078Live::解析域名成功
+[2024-02-18 16:12:45:108] Ip.c_str() = live-k8s.4s12580.com Port = 11188 Mei.c_str() = 078221316079 Channel = 1
+[2024-02-18 16:12:45:210] [this=0xe4e820: Thread ID=13656992: dataIndex=0]CJT1078Live::部标服务器连接成功
+[2024-02-18 16:12:46:109] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:47:110] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:47:167] CAACDataBuffer::FeedAACData AAC采样率 :16000
+[2024-02-18 16:12:47:167] CAACDataBuffer::FeedAACData AAC通道 : 1
+[2024-02-18 16:12:47:551] [this=0xe4e820: Thread ID=13656992: dataIndex=0] CJT1078Live::第一帧视频发送完成
+[2024-02-18 16:12:47:650] [this=0xe4e820: Thread ID=13656992: dataIndex=0] CJT1078Live::第一帧音频发送完成
+[2024-02-18 16:12:48:112] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:49:113] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:50:106] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:12:50:116] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:51:118] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务正在执行......
+[2024-02-18 16:12:51:371] [this=none: Thread ID=13666864: dataIndex=0]外部调用DoStopLive
+[2024-02-18 16:12:51:377] [this=0xcdfb30: Thread ID=13901696: dataIndex=0]CPushJT1078::process 停止直播
+[2024-02-18 16:12:51:381] [this=0xcdfb30: Thread ID=13120168: dataIndex=0]CPushJT1078::Stop 停止部标推流线程->CPushJT1078::process()
+[2024-02-18 16:12:51:382] [this=0xcdfb30: Thread ID=13120168: dataIndex=0]CPushJT1078::StopStream 停止部标媒体封装线程->CJT1078Live::process()
+[2024-02-18 16:12:51:384] [this=0xe4e820: Thread ID=13656992: dataIndex=0]CJT1078Live::flv封装推流线程关闭
+[2024-02-18 16:12:51:387] [this=0xc79530: Thread ID=13120168: dataIndex=0]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-18 16:12:51:387] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-18 16:12:51:387] [this=0xc77850: Thread ID=13072712]CMGMediaEngine::ClenaCmd  事务ID为:4 的任务执行完成! 文件路径:
+[2024-02-18 16:54:00:179] [this=0x1a2a0f0: Thread ID=3069849940]CMGMediaEngine::媒体主线程开启

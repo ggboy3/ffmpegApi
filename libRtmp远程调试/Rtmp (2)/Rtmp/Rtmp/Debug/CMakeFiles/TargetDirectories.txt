@@ -1,0 +1,3 @@
+/tmp/VisualGDB/c/Users/Administrator/Desktop/media/Rtmp/Rtmp/Debug/CMakeFiles/rebuild_cache.dir
+/tmp/VisualGDB/c/Users/Administrator/Desktop/media/Rtmp/Rtmp/Debug/CMakeFiles/edit_cache.dir
+/tmp/VisualGDB/c/Users/Administrator/Desktop/media/Rtmp/Rtmp/Debug/CMakeFiles/Rtmp.dir

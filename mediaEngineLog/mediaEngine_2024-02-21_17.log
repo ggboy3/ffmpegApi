@@ -1,0 +1,105 @@
+[2024-02-21 17:18:20:662] [this=0x13bf858: Thread ID=3069804884]CMGMediaEngine::媒体主线程开启
+[2024-02-21 17:18:20:680] [this=0x13bf858: Thread ID=3069804884: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:18:20:681] [this=0x13bf858: Thread ID=3069804884: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-21 17:18:20:682] [this=0x13bf858: Thread ID=3069804884: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:18:20:684] [this=0x13bf858: Thread ID=3069804884: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-21 17:18:20:684] [this=0x13bf858: Thread ID=3069804884: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:18:20:684] [this=0x13bf858: Thread ID=3069804884: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-21 17:18:49:528] [this=none: Thread ID=21239760: dataIndex=1]外部调用DoStartLive
+[2024-02-21 17:18:49:532] CMGMediaEngine::DoStartLive dataIndex:1 url:rtmp://live-k8s.4s12580.com:1946/live/803278221316079-1?streamId=834840683373146112 Time:-889854283
+[2024-02-21 17:18:49:544] [this=0x13bf858: Thread ID=21239760: dataIndex=1]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:0
+[2024-02-21 17:18:49:544] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 3
+[2024-02-21 17:18:49:544] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:0 消息类型:3
+[2024-02-21 17:18:49:552] [this=0x13cb788: Thread ID=20755776: dataIndex=1]CManipulator::HandleCmd 创建RTMP推流器线程->CMGPublisher::process()
+[2024-02-21 17:18:49:553] CMGPublisher::Start begin
+[2024-02-21 17:18:49:564] [this=0x145a150: Thread ID=21166240: dataIndex=1]CRtmpLive::正在连接媒体服务器
+[2024-02-21 17:18:49:590] [this=none: Thread ID=21239760: dataIndex=0]外部调用DoStartLive
+[2024-02-21 17:18:49:591] CMGMediaEngine::DoStartLive dataIndex:0 url:rtmp://live-k8s.4s12580.com:1936/live/803278221316079-0?streamId=834840683448643584 Time:-889854218
+[2024-02-21 17:18:49:591] [this=0x13bf858: Thread ID=21239760: dataIndex=0]CMGMediaEngine::DoStartLive 增加一条直播开始命令,事务ID:1
+[2024-02-21 17:18:49:594] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ProcessCmd 有一个要处理命令 type = 3
+[2024-02-21 17:18:49:600] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ProcessCmd 发送消息到MessageQueue队列,事物ID:1 消息类型:3
+[2024-02-21 17:18:49:600] [this=0x13c1538: Thread ID=20708320: dataIndex=0]CManipulator::HandleCmd 创建RTMP推流器线程->CMGPublisher::process()
+[2024-02-21 17:18:49:600] CMGPublisher::Start begin
+[2024-02-21 17:18:49:603] [this=0x1469180: Thread ID=21388952: dataIndex=0]CRtmpLive::正在连接媒体服务器
+[2024-02-21 17:18:49:656] RTMP_Connect0 connect start 
+[2024-02-21 17:18:49:656] RTMP_Connect0 connect start 
+[2024-02-21 17:18:49:703] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=256
+[2024-02-21 17:18:49:703] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:18:49:706] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=256
+[2024-02-21 17:18:49:708] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:18:49:711] RTMP_Connect0 connect end 
+[2024-02-21 17:18:49:718] RTMP_Connect0 connect end 
+[2024-02-21 17:18:50:443] [this=0x13c2378: Thread ID=21379840]CH264LoopBuffer::FeedH264Data 获取到有效的sps pps
+[2024-02-21 17:18:50:567] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:50:594] [this=0x1469180: Thread ID=21388952: dataIndex=0] CRtmpLive::第一帧视频发送完成
+[2024-02-21 17:18:50:624] [this=0x13cc628: Thread ID=21250256]CH264LoopBuffer::FeedH264Data 获取到有效的sps pps
+[2024-02-21 17:18:50:755] [this=0x145a150: Thread ID=21166240: dataIndex=1] CRtmpLive::第一帧视频发送完成
+[2024-02-21 17:18:51:001] [this=0x1469180: Thread ID=21388952: dataIndex=0] CRtmpLive::第一帧音频发送完成 
+[2024-02-21 17:18:51:436] [this=0x145a150: Thread ID=21166240: dataIndex=1] CRtmpLive::第一帧音频发送完成 
+[2024-02-21 17:18:51:567] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:52:572] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:53:577] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:54:565] [this=0x145a900: Thread ID=21399904: dataIndex=1]CMGPublisher::process 推流线程正在工作......
+[2024-02-21 17:18:54:578] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:55:582] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:56:586] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:57:590] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:58:594] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:18:59:565] [this=0x13cb788: Thread ID=20797120: dataIndex=1]CManipulator::process 任务数量:1
+[2024-02-21 17:18:59:597] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:00:598] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:01:599] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:02:601] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:03:604] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:04:568] [this=0x145a900: Thread ID=21399904: dataIndex=1]CMGPublisher::process 推流线程正在工作......
+[2024-02-21 17:19:04:606] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:05:611] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:06:611] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:07:611] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:08:617] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务正在执行......
+[2024-02-21 17:19:08:732] [this=none: Thread ID=21239760: dataIndex=1]外部调用DoStopLive
+[2024-02-21 17:19:08:734] DoStopLive end dataIndex = 1
+[2024-02-21 17:19:08:736] [this=0x145a900: Thread ID=21399904: dataIndex=1]CMGPublisher::process 停止直播
+[2024-02-21 17:19:08:754] [this=0x13cb788: Thread ID=20797120: dataIndex=1]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-21 17:19:08:758] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd CCommandManager任务队列有2个任务
+[2024-02-21 17:19:08:758] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:0 的任务执行完成! 文件路径:
+[2024-02-21 17:19:08:793] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=257
+[2024-02-21 17:19:08:794] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:08:808] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=245
+[2024-02-21 17:19:08:808] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:08:940] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=257
+[2024-02-21 17:19:08:940] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:08:982] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=242
+[2024-02-21 17:19:08:982] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:050] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=253
+[2024-02-21 17:19:09:050] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:109] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=259
+[2024-02-21 17:19:09:109] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:121] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=254
+[2024-02-21 17:19:09:121] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:242] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=247
+[2024-02-21 17:19:09:242] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:306] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=255
+[2024-02-21 17:19:09:306] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:335] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=258
+[2024-02-21 17:19:09:335] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:448] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=265
+[2024-02-21 17:19:09:448] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:465] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=247
+[2024-02-21 17:19:09:465] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:569] [this=0x146b060: Thread ID=21389536: dataIndex=0]CMGPublisher::process 推流线程正在工作......
+[2024-02-21 17:19:09:579] [this=none: Thread ID=21239760: dataIndex=0]外部调用DoStopLive
+[2024-02-21 17:19:09:579] DoStopLive end dataIndex = 0
+[2024-02-21 17:19:09:579] CAACDataBuffer::FeedAACData AAC采样率 :16000 AudioSize=246
+[2024-02-21 17:19:09:579] CAACDataBuffer::FeedAACData AAC通道 : 2
+[2024-02-21 17:19:09:585] [this=0x146b060: Thread ID=21389536: dataIndex=0]CMGPublisher::process 停止直播
+[2024-02-21 17:19:09:597] [this=0x13c1538: Thread ID=20755120: dataIndex=0]CManipulator::TaskStatusHandle 检测到任务完成
+[2024-02-21 17:19:09:599] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd CCommandManager任务队列有1个任务
+[2024-02-21 17:19:09:599] [this=0x13bf858: Thread ID=20707664]CMGMediaEngine::ClenaCmd  事务ID为:1 的任务执行完成! 文件路径:
+[2024-02-21 17:19:31:292] [this=0x22f0850: Thread ID=3069759828]CMGMediaEngine::媒体主线程开启
+[2024-02-21 17:19:31:306] [this=0x22f0850: Thread ID=3069759828: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:19:31:306] [this=0x22f0850: Thread ID=3069759828: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-21 17:19:31:308] [this=0x22f0850: Thread ID=3069759828: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:19:31:308] [this=0x22f0850: Thread ID=3069759828: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-21 17:19:31:308] [this=0x22f0850: Thread ID=3069759828: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-21 17:19:31:308] [this=0x22f0850: Thread ID=3069759828: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()

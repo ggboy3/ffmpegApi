@@ -1,0 +1,117 @@
+﻿  Building Custom Rule D:/gcwj/VMDxva3/VMDxva3/CMakeLists.txt
+  VMDxva2.cpp
+d:\gcwj\vmdxva3\vmdxva3\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MergerServer.cpp
+d:\gcwj\vmdxva3\vmdxva3\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(135): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(137): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(198): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(200): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(96): warning C4102: “reload”: 未引用的标签
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(346): warning C4996: 'AVCodecContext::channel_layout': 被声明为已否决
+  D:\gcwj\VMDxva3\VMDxva3\ffmpeg\include\libavcodec/avcodec.h(1100): note: 参见“AVCodecContext::channel_layout”的声明
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(347): warning C4996: 'AVCodecContext::channels': 被声明为已否决
+  D:\gcwj\VMDxva3\VMDxva3\ffmpeg\include\libavcodec/avcodec.h(1042): note: 参见“AVCodecContext::channels”的声明
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(350): warning C4996: 'AVCodecContext::channels': 被声明为已否决
+  D:\gcwj\VMDxva3\VMDxva3\ffmpeg\include\libavcodec/avcodec.h(1042): note: 参见“AVCodecContext::channels”的声明
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(360): warning C4996: 'AVFrame::channel_layout': 被声明为已否决
+  D:\gcwj\VMDxva3\VMDxva3\ffmpeg\include\libavutil/frame.h(524): note: 参见“AVFrame::channel_layout”的声明
+D:\gcwj\VMDxva3\VMDxva3\MergerServer.cpp(347): warning C4996: 'av_get_channel_layout_nb_channels': 被声明为已否决
+  d:\gcwj\vmdxva3\vmdxva3\ffmpeg\include\libavutil\channel_layout.h(474): note: 参见“av_get_channel_layout_nb_channels”的声明
+  FFmpegServer.cpp
+d:\gcwj\vmdxva3\vmdxva3\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\gcwj\VMDxva3\VMDxva3\FFmpegServer.cpp(54): warning C4101: “size”: 未引用的局部变量
+  正在生成代码...
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_freep，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_freep
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_log，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_log
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_dict_set_int，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_dict_free，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_dict_free
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_get_channel_layout_nb_channels，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_channel_layout_default，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_channel_layout_copy，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_frame_alloc，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_frame_alloc
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_frame_free，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_frame_free
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_frame_get_buffer，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_find_encoder_by_name，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_packet_alloc，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_packet_alloc
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_packet_free，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_packet_free
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_new_packet，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_packet_unref，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_packet_unref
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_alloc_context3，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_alloc_context3
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_free_context，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_free_context
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_parameters_from_context，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_open2，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_open2
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_close，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_send_packet，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_send_packet
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_receive_frame，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_receive_frame
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_send_frame，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_receive_packet，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_flush_buffers，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avcodec_flush_buffers
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_opt_set，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_opt_set_int，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_opt_set_sample_fmt，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_opt_set_chlayout，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avio_open，该符号在函数 "private: int __thiscall MergerServer::EncodecInit(char const *)" (?EncodecInit@MergerServer@@AAEHPBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avio_close，该符号在函数 "private: int __thiscall MergerServer::EncodecInit(char const *)" (?EncodecInit@MergerServer@@AAEHPBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_new_stream，该符号在函数 "private: int __thiscall MergerServer::AddStream(struct OutputStream *,struct AVFormatContext *,struct AVCodec const * *,char const *)" (?AddStream@MergerServer@@AAEHPAUOutputStream@@PAUAVFormatContext@@PAPBUAVCodec@@PBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_alloc_output_context2，该符号在函数 "private: int __thiscall MergerServer::EncodecInit(char const *)" (?EncodecInit@MergerServer@@AAEHPBD@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_open_input，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avformat_open_input
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_find_stream_info，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avformat_find_stream_info
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_find_best_stream，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_find_best_stream
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_read_frame，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_read_frame
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_close_input，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _avformat_close_input
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _avformat_write_header，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_interleaved_write_frame，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_write_trailer，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_dump_format，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2001: 无法解析的外部符号 _av_dump_format
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _swr_alloc，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _swr_init，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _swr_free，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _swr_convert，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+MergerServer.obj : error LNK2019: 无法解析的外部符号 _av_image_fill_arrays，该符号在函数 "public: int __thiscall MergerServer::MergeStartup(char const *,char const *,struct VideoInfo *)" (?MergeStartup@MergerServer@@QAEHPBD0PAUVideoInfo@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_mallocz，该符号在函数 "public: __thiscall FFmpegServer::FFmpegServer(void)" (??0FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_log_set_level，该符号在函数 "public: __thiscall FFmpegServer::FFmpegServer(void)" (??0FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_buffer_ref，该符号在函数 "private: int __thiscall FFmpegServer::hw_decoder_init(struct AVCodecContext *,enum AVHWDeviceType)" (?hw_decoder_init@FFmpegServer@@AAEHPAUAVCodecContext@@W4AVHWDeviceType@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_buffer_unref，该符号在函数 "public: __thiscall FFmpegServer::~FFmpegServer(void)" (??1FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_dict_set，该符号在函数 "public: int __thiscall FFmpegServer::AudioDecoder(char const *)" (?AudioDecoder@FFmpegServer@@QAEHPBD@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_frame_unref，该符号在函数 "private: int __thiscall FFmpegServer::video_decode_read(struct VideoContext *)" (?video_decode_read@FFmpegServer@@AAEHPAUVideoContext@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_frame_move_ref，该符号在函数 "private: int __thiscall FFmpegServer::video_decode_read(struct VideoContext *)" (?video_decode_read@FFmpegServer@@AAEHPAUVideoContext@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_hwdevice_find_type_by_name，该符号在函数 "public: __thiscall FFmpegServer::FFmpegServer(void)" (??0FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_hwdevice_get_type_name，该符号在函数 "public: __thiscall FFmpegServer::FFmpegServer(void)" (??0FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_hwdevice_iterate_types，该符号在函数 "public: __thiscall FFmpegServer::FFmpegServer(void)" (??0FFmpegServer@@QAE@XZ) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_hwdevice_ctx_create，该符号在函数 "private: int __thiscall FFmpegServer::hw_decoder_init(struct AVCodecContext *,enum AVHWDeviceType)" (?hw_decoder_init@FFmpegServer@@AAEHPAUAVCodecContext@@W4AVHWDeviceType@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_hwframe_transfer_data，该符号在函数 "private: int __thiscall FFmpegServer::video_decode_read(struct VideoContext *)" (?video_decode_read@FFmpegServer@@AAEHPAUVideoContext@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_find_decoder，该符号在函数 "public: int __thiscall FFmpegServer::AudioDecoder(char const *)" (?AudioDecoder@FFmpegServer@@QAEHPBD@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_get_hw_config，该符号在函数 "public: int __thiscall FFmpegServer::VideoDecoder(char const *,int)" (?VideoDecoder@FFmpegServer@@QAEHPBDH@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _avcodec_parameters_to_context，该符号在函数 "public: int __thiscall FFmpegServer::AudioDecoder(char const *)" (?AudioDecoder@FFmpegServer@@QAEHPBD@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_image_get_buffer_size，该符号在函数 "private: int __thiscall FFmpegServer::video_decode_read(struct VideoContext *)" (?video_decode_read@FFmpegServer@@AAEHPAUVideoContext@@@Z) 中被引用
+FFmpegServer.obj : error LNK2019: 无法解析的外部符号 _av_image_copy_to_buffer，该符号在函数 "private: int __thiscall FFmpegServer::video_decode_read(struct VideoContext *)" (?video_decode_read@FFmpegServer@@AAEHPAUVideoContext@@@Z) 中被引用
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\avdevice.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\avformat.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\avcodec.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\avutil.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\swscale.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\swresample.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\avfilter.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\ffmpeg\lib\postproc.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\gcwj\VMDxva3\VMDxva3\build\Debug\VMDxva2.exe : fatal error LNK1120: 64 个无法解析的外部命令

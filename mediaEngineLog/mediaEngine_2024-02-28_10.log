@@ -1,0 +1,7 @@
+[2024-02-28 10:15:19:201] [this=0x7c6850: Thread ID=3070091604]CMGMediaEngine::媒体主线程开启
+[2024-02-28 10:15:19:211] [this=0x7c6850: Thread ID=3070091604: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 10:15:19:212] [this=0x7c6850: Thread ID=3070091604: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 10:15:19:213] [this=0x7c6850: Thread ID=3070091604: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 10:15:19:213] [this=0x7c6850: Thread ID=3070091604: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 10:15:19:214] [this=0x7c6850: Thread ID=3070091604: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 10:15:19:214] [this=0x7c6850: Thread ID=3070091604: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()

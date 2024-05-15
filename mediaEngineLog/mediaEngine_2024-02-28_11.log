@@ -1,0 +1,27 @@
+[2024-02-28 11:27:03:888] [this=0x15207c8: Thread ID=3069202772]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:27:03:901] [this=0x15207c8: Thread ID=3069202772: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:03:902] [this=0x15207c8: Thread ID=3069202772: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:27:03:902] [this=0x15207c8: Thread ID=3069202772: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:03:903] [this=0x15207c8: Thread ID=3069202772: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:27:03:904] [this=0x15207c8: Thread ID=3069202772: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:03:904] [this=0x15207c8: Thread ID=3069202772: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:27:45:360] [this=0x1cfe860: Thread ID=3069743444]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:27:45:371] [this=0x1cfe860: Thread ID=3069743444: dataIndex=0]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:45:372] [this=0x1cfe860: Thread ID=3069743444: dataIndex=0]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:27:45:376] [this=0x1cfe860: Thread ID=3069743444: dataIndex=1]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:45:376] [this=0x1cfe860: Thread ID=3069743444: dataIndex=1]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:27:45:376] [this=0x1cfe860: Thread ID=3069743444: dataIndex=2]CMGMediaEngine::创建任务队列线程->MessageQueue::process()
+[2024-02-28 11:27:45:377] [this=0x1cfe860: Thread ID=3069743444: dataIndex=2]CMGMediaEngine::创建操作器线程->CManipulator::process()
+[2024-02-28 11:51:45:341] [this=0x178c850: Thread ID=3069391188]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:51:56:132] [this=0x20e4850: Thread ID=3069894996]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:52:16:074] [this=0x2251858: Thread ID=3069469012]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:52:36:108] [this=0x11a6850: Thread ID=3069391188]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:52:56:091] [this=0x16f2850: Thread ID=3069530452]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:53:16:055] [this=0x1e32858: Thread ID=3069890900]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:53:36:086] [this=0x18ae850: Thread ID=3069194580]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:53:56:164] [this=0x1eb7860: Thread ID=3069575508]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:54:16:113] [this=0xbb2850: Thread ID=3069399380]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:54:36:034] [this=0x23ec858: Thread ID=3069567316]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:54:56:231] [this=0x1fa1858: Thread ID=3069436244]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:55:13:868] [this=0x178f850: Thread ID=3069591892]CMGMediaEngine::媒体主线程开启
+[2024-02-28 11:55:33:029] [this=0x141e850: Thread ID=3069682004]CMGMediaEngine::媒体主线程开启

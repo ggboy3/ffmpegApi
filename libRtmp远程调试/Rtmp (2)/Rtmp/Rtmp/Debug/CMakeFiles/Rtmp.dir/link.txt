@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Rtmp.dir/Rtmp.cpp.o  -o Rtmp  -L/tmp/VisualGDB/c/Users/Administrator/Desktop/media/Rtmp/Rtmp/lib -lrtmp 

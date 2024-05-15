@@ -1,0 +1,3 @@
+D:/gcwj/VMDxva3/VMDxva3/build/CMakeFiles/VMDxva2.dir
+D:/gcwj/VMDxva3/VMDxva3/build/CMakeFiles/ALL_BUILD.dir
+D:/gcwj/VMDxva3/VMDxva3/build/CMakeFiles/ZERO_CHECK.dir
